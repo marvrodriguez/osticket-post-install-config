@@ -30,6 +30,8 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h4> 1. Configure Roles </h4>
 
+- Roles are the permissions granted to Agents per Department that they have access to. Each Role has a set of permissions that can be checked/unchecked for agents given that Role in association with a Department they have access to. An unlimited number of roles can be created and assigned to Agents with access to various departments.
+
  Admin Panel -> Agents -> Roles
  
 
@@ -63,6 +65,8 @@ Kept the default settings.
 
 <h4> 3. Configuring Teams </h4>
 
+- Teams allow you to pull Agents from different Departments and organize them to handle a specific issue or user via a Help Topic or Ticket Filter.
+
 Admin Panel -> Agents -> Teams
 
 ![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/fd1d37cd-4e71-41ca-8b33-1a868451ccd1)
@@ -79,6 +83,8 @@ Admin Panel -> Settings -> Users -> Authentication Settings (Registration requir
 
 
 <h4> 5. Configure Agents (Workers) </h4>
+
+- Agents are given access to the help desk with the intent to respond and resolve the tickets. When adding an Agent to the help desk, they will need to be assigned to a Primary Department and given a Primary Role for the Tickets/Tasks routed to that department. Agents can be given Extended Access to additional departments of the help desk as well as assigned different Roles to those departments; this can be configured in the Access tab of the Agent’s Profile.
 
 Admin Panel -> Agents -> Add New Agent
 
@@ -103,6 +109,8 @@ Teams Tab
 
 <h4> 6. Configure Users </h4>
 
+- Users are the ticket owners of the tickets in the help desk. When a ticket is created in the help desk, the user is associated with their email address in the User Directory of the help desk. Users can be added or deleted from the User Directory of the help desk at any time. Please note, if the user is deleted the tickets of the user must also be deleted.
+
 Agent Panel -> Users -> Add new
 
 ![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/a677a595-083a-4d76-b4a9-451b6e23291b)
@@ -110,6 +118,55 @@ Agent Panel -> Users -> Add new
 Users -> Add new
 
 ![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/9b41ee48-8a0f-499a-b768-16f3d06cf299)
+
+Create Users, fill out necessary credentials
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/7ba31d03-9f43-4d3f-902e-9f167b4f2bee)
+
+
+<h4> 7. Configure SLA (Service Level Agreement) </h4>
+
+- The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed.
+
+Admin Panel -> Manage -> Help Topics
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/48522cca-80e0-40de-8b42-71766464274a)
+
+
+Create and Set the parameters for your SLA
+
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/d0282532-dce4-4555-9bb2-53b12b6ab6f5)
+
+- SEV-A (1hour,24/7)
+- SEV-B ( 4hours, 24/7)
+- SEV-C (8 hours, business hours)
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/cdf21980-3e0f-43a7-a59c-ebe0dcf5247f)
+
+<h4> 8. Configure Help Topics</h4>
+
+- Help Topics will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket. Create as many Help Topics as needed and can even nest Help Topics within each other for further breakdown (For example, Human Resources and Human Resources/Payroll.)
+
+Admin Panel -> Manage -> Help topics
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/a83e1d5b-3baf-4614-a75e-2d096926855f)
+
+Create Help Topics for Users
+Add notes to aid in defining the Help topic
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/217fc266-12d6-4fd0-8ae0-c860d513bbe5)
+
+Added Topics
+- Business Critical Outage
+- Personal Computer Issues
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+  
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/5a9ff171-994e-4811-9e22-e5e5fc28d118)
+
+
 
 
 
