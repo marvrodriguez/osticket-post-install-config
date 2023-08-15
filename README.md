@@ -61,12 +61,23 @@ Kept the default settings.
 ![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/54b26762-3be6-42e4-a2c0-c12bc14caf81)
 
 
-Adding and Configuring a new Team.
+<h4> 3. Configuring Teams </h4>
 
 Admin Panel -> Agents -> Teams
 
 ![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/fd1d37cd-4e71-41ca-8b33-1a868451ccd1)
 
+Create a New Team and add members respectively.
 
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/1085dbd4-14f4-4773-aed2-08ba44789640)
+
+<h4> 4. Allow anyone to create tickets </h4>
+
+Admin Panel -> Settings -> Users -> Authentication Settings (Registration required leave unchecked)
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/b8bd6fd4-9fc1-4235-a565-0171f7259c96)
+
+
+<h4> 5. Configure Agents (Workers) </h4>
 
 
