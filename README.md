@@ -80,4 +80,39 @@ Admin Panel -> Settings -> Users -> Authentication Settings (Registration requir
 
 <h4> 5. Configure Agents (Workers) </h4>
 
+Admin Panel -> Agents -> Add New Agent
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/90b71315-f318-40f5-b1fc-88356780be12)
+
+Configure and manage their Account, Access, Permissions and Teams here.
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/fb2a8724-60f9-46ce-90bb-078934ba4a2f)
+
+Access Tab, let's you select what Department and Roles can be assigned
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/01492811-5e96-4cbf-8b9b-8cc92346fa9a)
+
+Permission Tab
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/f3fb845f-88e9-4d77-804d-94b2ca56a4f0)
+
+Teams Tab
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/c521e701-a133-4471-970b-6fe03a6c547a)
+
+
+<h4> 6. Configure Users </h4>
+
+Agent Panel -> Users -> Add new
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/a677a595-083a-4d76-b4a9-451b6e23291b)
+
+Users -> Add new
+
+![image](https://github.com/marvrodriguez/osticket-post-install-config/assets/141983161/9b41ee48-8a0f-499a-b768-16f3d06cf299)
+
+
+
+
+
 
